@@ -7,9 +7,9 @@ export const Line: FC<any> = ({ coordinates }) => {
       <line
         className={`fromId${coordinates.fromId} toId${coordinates.toId} `}
         x1={200}
-        y1={coordinates.y1-120}
+        y1={coordinates.y1-190}
         x2={400}
-        y2={coordinates.y2-120}
+        y2={coordinates.y2-190}
         stroke="rgb(81, 192, 209)"
         strokeWidth={2}
       />

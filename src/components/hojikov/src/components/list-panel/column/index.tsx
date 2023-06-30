@@ -44,7 +44,7 @@ export const ListPanel: React.FC<IColumn> = ({ list, col, appRef }) => {
     (e: any) => {
       const el = e.target
       ref.current = e
-      offsetY = e.clientY - el.getBoundingClientRect().top
+      offsetY = e.clientY - el.getBoundingClientRect().top + 200
       window.addEventListener("mousemove", move)
     },
     [move]
