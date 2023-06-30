@@ -1,0 +1,14 @@
+.draggable {
+  padding: 1.5rem;
+  text-align: center;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px 0 #818181;
+  user-select: none;
+
+  background-color: #dbdbdb;
+}
+
+.draggable:hover {
+  cursor: grab;
+}
