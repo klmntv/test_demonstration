@@ -5,7 +5,7 @@ import Graph from '../types/graph';
 const useGraph = (id: string): Graph => {
   const [selectedGraph, setSelectedGraph] = useState<Graph>({ edges: [], nodes: [] });
 
-  const getGraph = (id: string) => {
+  const getGraph = (id: any) => {
     fetchGraph(id).then((graph) => setSelectedGraph(graph));
   };
 

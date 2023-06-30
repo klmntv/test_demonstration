@@ -8,6 +8,7 @@ type Props = {
   draggedElementIndex: number;
   setDraggedElementIndex: (i: number) => void;
   handleSwap: (index1: number, index2: number) => void;
+  children: any;
 };
 
 const Draggable: FC<Props> = ({
