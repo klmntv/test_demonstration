@@ -13,7 +13,6 @@ export const Rogatkin: FC<RogatkinProps> = () => {
         minHeight: "100%",
       }}
     >
-      Rogatkin
       <App />
     </div>
   )
